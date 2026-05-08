@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "RSA driving test slot monitor — backend polling server",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
@@ -19,6 +20,6 @@
     "nodemon": "^3.1.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": "20.x"
   }
 }
